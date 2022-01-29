@@ -96,6 +96,7 @@ header{
     font-size: 30px;
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
+    text-decoration: none;
     color: #012e67;
 }
 .h_2{
@@ -108,7 +109,7 @@ header{
     background: black;
 }
 .grad{
-    background: linear-gradient(45deg, #032e42, #158cc9 50%);
+    background: linear-gradient(45deg, #20536b, #00a4ff 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 80%;
