@@ -1,6 +1,3 @@
-body{
-    background-color: #d71111;
-}
 
 /*Кнопка, чтобы вверх*/
 #myBtn {
@@ -318,11 +315,7 @@ header{
     background-color: #f4f4f4;
     padding: 0 10% 5% 10%;
 }
-.empty_not_empty{
-    margin-bottom: -5%;
-    height: 10px;
-    color: #f4f4f4;
-}
+
 .for_play_buttom{
     display: flex;
     flex-direction: column;
