@@ -5,15 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_main.css">
     <link rel="shortcut icon" type = "image/x-icon" href = "img/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Outfit:wght@500;900&family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">
@@ -64,7 +64,9 @@
                     Never gonna let you down
                 </p>
             </div>
-            <button class="play">Let's play</button>
+            <a class="play_ff" href="#game_bt">
+                <button class="play"> Let's play</button>
+            </a>
         </div>
     </section>
 
@@ -101,11 +103,9 @@
 
 
         <div class="flex-animation">
-
             <div class="images">
                 <img class="anima-img" src="img/game.png" alt="">
             </div>
-
             <div class="flex_text_in">
                 <h1 class="cnt_sc">Where the best gamers go for inspiration and community.</h1>
                 <h3 class="ctr_sc">Over 5 billions people trust to these games</h3>
@@ -138,14 +138,6 @@
 
             </div>
 
-            <div class="paletto_1">
-                <div class="container">
-                </div>
-            </div>
-
-            <div class="paletto_2">
-
-            </div>
 
         </div>
 
@@ -177,15 +169,41 @@
         </div>
     </article>
 
+    <div class="empty_not_empty" id="game_bt"></div>
+    <div class="games">
+        <div class="for_play_buttom">
+            <div class="images_for_play">
+                <a href="https://instagram.com/jntbk?utm_medium=copy_link">
+                    <div class="buttom_img">
+                        <img class="img_flex" src="img/T-T-T.png" alt="">
+                    </div>
+                </a>
+
+                <a href="https://instagram.com/jntbk?utm_medium=copy_link">
+                    <div class="buttom_img">
+                        <img class="img_flex" src="img/R-P-S.png" alt="">
+                    </div>
+                </a>
+
+                <a href="https://instagram.com/jntbk?utm_medium=copy_link">
+                    <div class="buttom_img">
+                        <img class="img_flex" src="img/snake.png" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
     <footer class="footer_d">
         <div class="footer-flex">
             <div class="part1_footer">
                 <div class="container"><h1 class="footer_first">Avocado.</h1> </div>
                 <div class="container">
-                    <p class="footer_second"> Just play and enjoy.</p><span class="footer_nice"> keep simple </span>
+                    <p class="footer_second"> Play with pleasure, <br> because we poured all the soul.<br> <span class="footer_nice"> keep it simple </span></p>
                 </div>
-                <div class="container">
 
+                <div class="container">
+                    <p class="all_rights">© 2022 Avocado. All rights reserved.</p>
                 </div>
             </div>
 
@@ -201,8 +219,7 @@
 
     </footer>
 
-
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
